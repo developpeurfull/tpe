@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | [Votre Nom]</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="acceuil">Accueil</a></li>
+            <li><a href="#about" class="acceuil">À propos</a></li>
+            <li><a href="#projects" class="acceuil">Projets</a></li>
+            <li><a href="#contact" class="acceuil">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Héros -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Je suis <span class="highlight">MONEGUEM WAFFO Anaelle Deliane</span></h1>
+            <p class="subtitle">Etudiante en Informatique</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos</h2>
+            <p>Passionné par l'informatique depuis 2020, je crée des plates formes numeriques.</p>
+            <div class="skills">
+                <span class="skill">HTML/CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">PHP</span>
+                <span class="skill">LARAVEL</span>
+                <span class="skill">REACTJS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Creation d'un site web de E-Commerce</h3>
+                    <p>Ce si a ete concu pour repondre au probleme qui se pose lors de l'achat des equipement informatique notamment le prix et la garantie des produits</p>
+                    <a href="MON_SITE/page1.html" class="btn">Détails</a>
+                </div>
+                <div class="project-card">
+                    <h3>Creation d'une plate forme de E-Learning</h3>
+                    <p>Dans le but de numeriser et de developper l'apprentissage, il nous ai venu a l'esprit de concevoir un site web respectant essentiellemeny les normes du CRUD</p>
+                    <a href="#" class="btn">Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>Analyse et concetion d'une bibliotheque numerique</h3>
+                    <p>Au vu d'apporter des solution au problemes qui se posent lors de l'emprunt d'un livre a la blibliothe de l'etablissement, il nous a ete demande de concevoir une bibliotheque numerique</p>
+                    <a href="#" class="btn">Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+        <i class="fa fa-phone" aria-hidden="true"><h2>Contactez-moi</h2></i>
+            <form id="contact-form">
+                <input type="text" placeholder="Nom" required class="btm"><br>
+                <input type="email" placeholder="Email" required class="btm"><br>
+                <textarea placeholder="Message" required class="btm"></textarea><br>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
